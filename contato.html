@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta  name = "autor"  conteúdo = "Katiele Carvalho" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title> Contato</title>
+</head>
+    <header>
+        <a href="index.html" alt="Curriculo">Voltar</a><!--link para voltar para a página principal.-->
+            
+     
+       
+            <h1> Envie uma mensagem</h1>
+        
+    </header>
+    
+<body>
+    <section>
+        <article>
+            
+       
+         
+            <form action="formulae.php" method="post">
+                <fieldset>
+                    <label for="Nome">Nome Completo</label>
+                    <input type="text" autofocus="autofocus" required="required"  name="Nome"id="Nome"> </input><br>
+                </fieldset>  
+                <fieldset>
+            
+       
+                    <label for="email"> E-mail</label>
+                    <input type="email" autofocus="autofocus" required="required" id="email" name="email"></input><br>
+                </fieldset>	
+                <fieldset>
+                    <legend>Entre com com sua mensagem</legend>
+                    <label for="text"> Mensagem</label>
+                    <textarea  id="mensagem" name="mensagem"  rows="4" cols="40"></textarea><br>
+            
+                </fieldset>
+                <input type="submit" name="enviar" value="Enviar"></input>
+            </form>
+        </article>
+    </section>
+    
+            
+</body>
+</html>
